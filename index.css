@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 50px 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Inter", sans-serif;
+}
+
+button{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(205, 89, 255);
+}
+
+.aikakausi input{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.aikakausi label{
+    display: block;
+    float:inline-end;
+    margin-top: 10px;
+}
+
+.aikakausi input:checked {
+    background-color: blueviolet;
+    color: white;
+    filter: hue-rotate(60deg);
+}
+
+iframe{
+    width: auto;
+    height: 30%;
+}
